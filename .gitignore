@@ -1,0 +1,63 @@
+# Python相关
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+*.bak
+*.log
+
+# Django相关
+db.sqlite3
+*.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.so
+*.mo
+*.pot
+*.pid
+
+# 环境配置
+.env
+*.env
+*.ini
+*.cfg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# IDE相关
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# 操作系统相关
+.DS_Store
+Thumbs.db
+
+# 静态文件
+/staticfiles/
+/media/
+/static/
+/mediafiles/
+
+# Migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# 本地开发工具
+*.coverage
+.coverage.*
+.cache/
+pytest_cache/
+.tox/
+
+# 数据相关
+My_Left4Dead_Backend/host.py
